@@ -1,1 +1,1 @@
-SQL - More queries project
+SQL - More queries

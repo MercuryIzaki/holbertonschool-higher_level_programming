@@ -1,4 +1,5 @@
 -- Lists all shows in the database hbtn_0d_tvshows
+-- Displays: tv_shows.title - tv_show_genres.genre_id
 -- Displays NULL for shows without a genre
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows

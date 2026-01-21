@@ -1,1 +1,1 @@
-SQL Introduction Project
+SQL Introduction - basic tasks with MySQL

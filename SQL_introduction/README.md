@@ -1,1 +1,1 @@
-Introduction to SQL - databases and tables management
+SQL Introduction Project

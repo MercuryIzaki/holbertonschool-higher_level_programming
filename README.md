@@ -1,1 +1,1 @@
-Python - Inheritance project
+Project README

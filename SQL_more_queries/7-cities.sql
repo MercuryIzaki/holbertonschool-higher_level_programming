@@ -1,7 +1,7 @@
--- Creates the table cities in the database hbtn_0d_usa
+-- Creates the table cities with a foreign key
 USE hbtn_0d_usa;
 CREATE TABLE IF NOT EXISTS cities (
-    id INT NOT NULL AUTO_INCREMENT UNIQUE PRIMARY KEY,
+    id INT NOT NULL UNIQUE AUTO_INCREMENT PRIMARY KEY,
     state_id INT NOT NULL,
     name VARCHAR(256) NOT NULL,
     FOREIGN KEY (state_id) REFERENCES states(id)

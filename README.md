@@ -1,1 +1,1 @@
-Higher Level Programming
+Higher level programming - Python inheritance

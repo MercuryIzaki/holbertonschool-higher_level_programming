@@ -1,1 +1,1 @@
-Python inheritance tasks
+Tasks on inheritance

@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+"""
+Module 9-student
+Contains class Student that defines a student
+"""
+
+
+class Student:
+    """Class Student that defines a student"""
+
+    def __init__(self, first_name, last_name, age):
+        """
+        Initialization of the student
+        Args:
+            first_name (str): first name
+            last_name (str): last name
+            age (int): age
+        """
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+
+    def to_json(self):
+        """
+        Retrieves a dictionary representation of a Student instance
+        Returns:
+            Dictionary representation of the instance
+        """
+        return self.__dict__

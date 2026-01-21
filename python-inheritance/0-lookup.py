@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Module 0-lookup
-Contains a function that returns the list of available attributes
+Provides a function that returns the list of available attributes
 and methods of an object.
 """
 
